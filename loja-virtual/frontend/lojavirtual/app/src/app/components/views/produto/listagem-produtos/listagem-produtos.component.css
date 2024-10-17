@@ -1,0 +1,86 @@
+.produtos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.produto{
+  border: 4px solid #fb009f;
+  width: 250px;
+  height: 330px;
+  text-align: center;
+  background-color: #f8b2e8;
+  margin: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.produto img{
+  width: 250px;
+  max-width: 250px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.produto p{
+  font-size: 15px;
+}
+
+.produto .preco{
+  font-weight: bold;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button {
+  width: 90px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.comprar {
+  background-color: #cc07d3;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 25px;
+  transition: .5s;
+}
+
+.detalhes {
+  background-color: #f14270;
+  font-weight: bold;
+  height: 25px;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.deletar {
+  border-radius: 5px;
+  font-weight: bold;
+  height: 25px;
+  background-color: #ff83a2;
+  transition: .5s;
+}
+
+.deletar:hover{
+  height: 30px;
+  background-color: rgb(251, 20, 20);
+}
+
+.detalhes:hover {
+  height: 30px;
+  background-color: rgb(246, 31, 67);
+}
+
+.comprar:hover{
+  background-color: rgb(245, 17, 138);
+  height: 30px;
+}

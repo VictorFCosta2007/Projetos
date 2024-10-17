@@ -1,0 +1,26 @@
+
+
+
+.produto{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.produto .nome-produto{
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.buttons{
+
+}
+
+.produto img{
+  width: 500px;
+}
+
+

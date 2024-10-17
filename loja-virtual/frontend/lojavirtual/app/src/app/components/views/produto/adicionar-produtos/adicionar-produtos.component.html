@@ -1,0 +1,23 @@
+<div class="adicionar-produto">
+  <mat-form-field>
+    <mat-label>Nome</mat-label>
+    <input matInput type="text" [(ngModel)]="nome" placeholder="Nome do Produto" required="truw">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Descrição</mat-label>
+    <input matInput placeholder="descricao" type="text" [(ngModel)]="descricao" required="true">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Preço</mat-label>
+    <input matInput placeholder="preço" type="text" [(ngModel)]="preco" required="true">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Imagem</mat-label>
+    <input matInput placeholder="imagem" type="text" [(ngModel)]="url_imagem" required="true">
+  </mat-form-field>
+
+  <button mat-raised-button type="submit" (click)="salvarProduto()">Adicionar</button>
+</div>

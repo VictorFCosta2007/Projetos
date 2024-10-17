@@ -1,0 +1,20 @@
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu a{
+  margin: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fb004c;
+  transition: .5s;
+}
+
+.menu a:hover{
+  margin: 10px;
+  font-size: 28px;
+  color: #f177e5;
+}
+

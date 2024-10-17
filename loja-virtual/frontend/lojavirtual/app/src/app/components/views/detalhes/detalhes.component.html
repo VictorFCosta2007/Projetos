@@ -1,0 +1,11 @@
+<div class="produto">
+  <p class="nome-produto">{{produto.nome}}</p>
+  <img [src]="produto.url_imagem">
+  <p>{{produto.descricao}}</p>
+
+  <div class="buttons">
+    <button (click)="deletarProduto(produto.id)" mat-raised-button> Deletar Produto</button>
+    <button mat-raised-button>Editar Produto</button>
+
+  </div>
+</div>
