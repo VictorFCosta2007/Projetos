@@ -43,12 +43,19 @@ public class ProdutoController {
     }
 
     @PutMapping
-    public ResponseEntity<Produto> atualizar (@PathVariable Long id, @RequestBody Produto produto){
+    public ResponseEntity<?> atualizar (@PathVariable Long id, @RequestBody Produto produto){
         try{
             Produto produtoAtualizado = produtoService.atualizarProduto(id, produto);
-            return ResponseEntity.ok(produtoAtualizado);
+            Map<String, Object> resposta = new HashMap<>();
+            resposta.put("mensagem", "Produto atualizado com sucesso!");
+            resposta.put("produto", produtoAtualizado);
+            return ResponseEntity.ok(resposta);
         } catch (RuntimeException e) {
-            return ResponseEntity.notFound().build();
+            return ResponseEntity.status(404).body(
+                    gerarMensagem("Produto não encontrado para atualização (ID: " + id + ")")
+            );
+        } catch (Exception e){
+            return gerarErro("Erro ao atualizar o produto", e);
         }
     }
 
