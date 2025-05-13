@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64b3e693-af2e-4863-8e4f-7a4ebb434655" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/src/main/java/congregacaocristanobrasil/org/GplApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/src/main/java/congregacaocristanobrasil/org/controller/ProdutoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/src/main/java/congregacaocristanobrasil/org/model/ItemPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/src/main/java/congregacaocristanobrasil/org/model/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/src/main/java/congregacaocristanobrasil/org/model/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/src/main/java/congregacaocristanobrasil/org/repository/ProdutoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/src/main/java/congregacaocristanobrasil/org/service/ProdutoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GPL/Back-End/src/test/java/congregacaocristanobrasil/org/GplApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2x3YYKy6haXMt572MEr41dVj07Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Victor/OneDrive/Área de Trabalho/Projetos/Pedidos de Restaurante"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64b3e693-af2e-4863-8e4f-7a4ebb434655" name="Changes" comment="" />
+      <created>1747168276479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747168276479</updated>
+    </task>
+    <servers />
+  </component>
+</project>
